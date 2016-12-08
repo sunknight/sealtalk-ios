@@ -1153,7 +1153,7 @@
 			name = AboutSealTalk;
 			sourceTree = "<group>";
 		};
-		A6447A061B1DBE6500EA2CEE /* 融云 Demo WatchKit Extension */ = {
+		A6447A061B1DBE6500EA2CEE /* Demo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
 				A6BD040F1B1E938000ACAF17 /* 融云 Demo WatchKit Extension.entitlements */,
@@ -1165,6 +1165,7 @@
 				A6447A101B1DBE6500EA2CEE /* Images.xcassets */,
 				A6447A071B1DBE6500EA2CEE /* Supporting Files */,
 			);
+			name = "Demo WatchKit Extension";
 			path = "融云 Demo WatchKit Extension";
 			sourceTree = "<group>";
 		};
@@ -1177,13 +1178,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A6447A181B1DBE6500EA2CEE /* 融云 Demo WatchKit App */ = {
+		A6447A181B1DBE6500EA2CEE /* Demo WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
 				A6447A1B1B1DBE6500EA2CEE /* Interface.storyboard */,
 				A6447A1E1B1DBE6500EA2CEE /* Images.xcassets */,
 				A6447A191B1DBE6500EA2CEE /* Supporting Files */,
 			);
+			name = "Demo WatchKit App";
 			path = "融云 Demo WatchKit App";
 			sourceTree = "<group>";
 		};
@@ -1622,8 +1624,8 @@
 			children = (
 				A6447A351B1DC0F400EA2CEE /* RCWatchKitCommon */,
 				E4D40F2A1A031F460045097C /* BiMessage */,
-				A6447A061B1DBE6500EA2CEE /* 融云 Demo WatchKit Extension */,
-				A6447A181B1DBE6500EA2CEE /* 融云 Demo WatchKit App */,
+				A6447A061B1DBE6500EA2CEE /* Demo WatchKit Extension */,
+				A6447A181B1DBE6500EA2CEE /* Demo WatchKit App */,
 				17D7D1D91D534F56000AEC54 /* SealTalkShareExtension */,
 				E4C4E7E71A0A309100140067 /* Frameworks */,
 				E4D40F291A031F460045097C /* Products */,
