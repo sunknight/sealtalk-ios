@@ -608,7 +608,7 @@
 		A6B1D8F41B201B3600AD32EC /* RCWKNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWKNotificationCenter.m; sourceTree = "<group>"; };
 		A6B1D8F51B201B3600AD32EC /* RCWKUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCWKUtility.h; sourceTree = "<group>"; };
 		A6B1D8F61B201B3600AD32EC /* RCWKUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCWKUtility.m; sourceTree = "<group>"; };
-		A6BD040F1B1E938000ACAF17 /* 融云 Demo WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "融云 Demo WatchKit Extension.entitlements"; sourceTree = "<group>"; };
+		A6BD040F1B1E938000ACAF17 /* Demo WatchKit Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Demo WatchKit Extension.entitlements"; sourceTree = "<group>"; };
 		A6BD04101B1E941D00ACAF17 /* RCloudMessage.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = RCloudMessage.entitlements; path = RCloudMessage/RCloudMessage.entitlements; sourceTree = SOURCE_ROOT; };
 		A6BD04171B1EEA6B00ACAF17 /* RongIMLib.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RongIMLib.framework; path = framework/RongIMLib.framework; sourceTree = SOURCE_ROOT; };
 		A6CF8A341BD4CB6E00F3EA1A /* RCConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = RCConfig.plist; path = framework/RCConfig.plist; sourceTree = SOURCE_ROOT; };
@@ -1156,7 +1156,7 @@
 		A6447A061B1DBE6500EA2CEE /* Demo WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A6BD040F1B1E938000ACAF17 /* 融云 Demo WatchKit Extension.entitlements */,
+				A6BD040F1B1E938000ACAF17 /* Demo WatchKit Extension.entitlements */,
 				A6447A401B1DC14A00EA2CEE /* RCWKExtension */,
 				A6447A0A1B1DBE6500EA2CEE /* InterfaceController.h */,
 				A6447A0B1B1DBE6500EA2CEE /* InterfaceController.m */,
