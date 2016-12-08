@@ -171,6 +171,7 @@
   
   _isClick = YES;
   //自定义rightBarButtonItem
+  /*
   RCDUIBarButtonItem *rightBtn =
   [[RCDUIBarButtonItem alloc] initContainImage:[UIImage imageNamed:@"add"]
                                 imageViewFrame:CGRectMake(0, 0, 17, 17)
@@ -181,8 +182,8 @@
                                         target:self
                                         action:@selector(showMenu:)];
   self.tabBarController.navigationItem.rightBarButtonItems = [rightBtn setTranslation:rightBtn translation:-6];
-  
-  self.tabBarController.navigationItem.title = @"会话";
+  */
+  self.tabBarController.navigationItem.title = @"通知";
 
 //  [self notifyUpdateUnreadMessageCount];
   [[NSNotificationCenter defaultCenter]

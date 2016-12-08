@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4D40F271A031F460045097C"
-               BuildableName = "SealTalk.app"
-               BlueprintName = "SealTalk"
-               ReferencedContainer = "container:RCloudMessage.xcodeproj">
+               BlueprintIdentifier = "A6447A131B1DBE6500EA2CEE"
+               BuildableName = "SealTalk WatchKit App.app"
+               BlueprintName = "SealTalk WatchKit App"
+               ReferencedContainer = "container:bi-message.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,10 +32,10 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4D40F271A031F460045097C"
-            BuildableName = "SealTalk.app"
-            BlueprintName = "SealTalk"
-            ReferencedContainer = "container:RCloudMessage.xcodeproj">
+            BlueprintIdentifier = "A6447A131B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit App.app"
+            BlueprintName = "SealTalk WatchKit App"
+            ReferencedContainer = "container:bi-message.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -51,16 +51,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/SealTalk">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4D40F271A031F460045097C"
-            BuildableName = "SealTalk.app"
-            BlueprintName = "SealTalk"
-            ReferencedContainer = "container:RCloudMessage.xcodeproj">
+            BlueprintIdentifier = "A6447A131B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit App.app"
+            BlueprintName = "SealTalk WatchKit App"
+            ReferencedContainer = "container:bi-message.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A6447A131B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit App.app"
+            BlueprintName = "SealTalk WatchKit App"
+            ReferencedContainer = "container:bi-message.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -70,16 +81,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/SealTalk">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4D40F271A031F460045097C"
-            BuildableName = "SealTalk.app"
-            BlueprintName = "SealTalk"
-            ReferencedContainer = "container:RCloudMessage.xcodeproj">
+            BlueprintIdentifier = "A6447A131B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit App.app"
+            BlueprintName = "SealTalk WatchKit App"
+            ReferencedContainer = "container:bi-message.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "A6447A131B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit App.app"
+            BlueprintName = "SealTalk WatchKit App"
+            ReferencedContainer = "container:bi-message.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

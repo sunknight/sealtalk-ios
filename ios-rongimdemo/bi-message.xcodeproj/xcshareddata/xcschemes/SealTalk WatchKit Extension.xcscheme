@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0800"
+   LastUpgradeVersion = "0730"
    wasCreatedForAppExtension = "YES"
    version = "2.0">
    <BuildAction
@@ -15,24 +15,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "17D7D1D71D534F56000AEC54"
-               BuildableName = "SealTalkShareExtension.appex"
-               BlueprintName = "SealTalkShareExtension"
-               ReferencedContainer = "container:RCloudMessage.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "E4D40F271A031F460045097C"
-               BuildableName = "SealTalk.app"
-               BlueprintName = "SealTalk"
-               ReferencedContainer = "container:RCloudMessage.xcodeproj">
+               BlueprintIdentifier = "A6447A041B1DBE6500EA2CEE"
+               BuildableName = "SealTalk WatchKit Extension.appex"
+               BlueprintName = "SealTalk WatchKit Extension"
+               ReferencedContainer = "container:bi-message.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -44,15 +30,6 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "17D7D1D71D534F56000AEC54"
-            BuildableName = "SealTalkShareExtension.appex"
-            BlueprintName = "SealTalkShareExtension"
-            ReferencedContainer = "container:RCloudMessage.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -67,16 +44,15 @@
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4D40F271A031F460045097C"
-            BuildableName = "SealTalk.app"
-            BlueprintName = "SealTalk"
-            ReferencedContainer = "container:RCloudMessage.xcodeproj">
+            BlueprintIdentifier = "A6447A041B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit Extension.appex"
+            BlueprintName = "SealTalk WatchKit Extension"
+            ReferencedContainer = "container:bi-message.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -87,16 +63,15 @@
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES"
       launchAutomaticallySubstyle = "2">
-      <BuildableProductRunnable
-         runnableDebuggingMode = "0">
+      <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "E4D40F271A031F460045097C"
-            BuildableName = "SealTalk.app"
-            BlueprintName = "SealTalk"
-            ReferencedContainer = "container:RCloudMessage.xcodeproj">
+            BlueprintIdentifier = "A6447A041B1DBE6500EA2CEE"
+            BuildableName = "SealTalk WatchKit Extension.appex"
+            BlueprintName = "SealTalk WatchKit Extension"
+            ReferencedContainer = "container:bi-message.xcodeproj">
          </BuildableReference>
-      </BuildableProductRunnable>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

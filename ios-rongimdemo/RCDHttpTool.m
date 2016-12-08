@@ -146,7 +146,7 @@
             } else {
               RCUserInfo *user = [RCUserInfo new];
               user.userId = userID;
-              user.name = [NSString stringWithFormat:@"name%@", userID];
+              user.name = [NSString stringWithFormat:@"%@", userID];
               user.portraitUri = [RCDUtilities defaultUserPortrait:user];
 
               if (completion) {
@@ -158,7 +158,7 @@
           } else {
             RCUserInfo *user = [RCUserInfo new];
             user.userId = userID;
-            user.name = [NSString stringWithFormat:@"name%@", userID];
+            user.name = [NSString stringWithFormat:@"%@", userID];
             user.portraitUri = [RCDUtilities defaultUserPortrait:user];
 
             if (completion) {
@@ -174,7 +174,7 @@
             dispatch_async(dispatch_get_main_queue(), ^{
               RCUserInfo *user = [RCUserInfo new];
               user.userId = userID;
-              user.name = [NSString stringWithFormat:@"name%@", userID];
+              user.name = [NSString stringWithFormat:@"%@", userID];
               user.portraitUri = [RCDUtilities defaultUserPortrait:user];
 
               completion(user);

@@ -103,7 +103,7 @@
 {
   RCUserInfo *defaultUserInfo = [RCUserInfo new];
   defaultUserInfo.userId = userId;
-  defaultUserInfo.name = [NSString stringWithFormat:@"name%@", userId];
+  defaultUserInfo.name = [NSString stringWithFormat:@"%@", userId];
   defaultUserInfo.portraitUri = [RCDUtilities defaultUserPortrait:defaultUserInfo];
   return defaultUserInfo;
 }

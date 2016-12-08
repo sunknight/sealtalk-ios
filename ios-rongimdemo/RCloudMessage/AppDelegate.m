@@ -28,7 +28,7 @@
 #import "RCDMainTabBarViewController.h"
 
 //#define RONGCLOUD_IM_APPKEY @"e0x9wycfx7flq" //offline key
-#define RONGCLOUD_IM_APPKEY @"n19jmcy59f1q9" // online key
+#define RONGCLOUD_IM_APPKEY @"qf3d5gbj3ukgh" // online key
 
 #define UMENG_APPKEY @"563755cbe0f55a5cb300139c"
 
@@ -61,7 +61,7 @@
   //在info.plist中打开Application supports iTunes file sharing
   //    if (![[[UIDevice currentDevice] model] isEqualToString:@"iPhone
   //    Simulator"]) {
-          [self redirectNSlogToDocumentFolder];
+  //        [self redirectNSlogToDocumentFolder];
   //    }
   //启动页停留1秒钟。
   [NSThread sleepForTimeInterval:1.0];
@@ -156,12 +156,12 @@
   [RCIMClient sharedRCIMClient].logLevel = RC_Log_Level_Info;
   
   //登录
-  NSString *token = [DEFAULTS objectForKey:@"userToken"];
-  NSString *userId = [DEFAULTS objectForKey:@"userId"];
-  NSString *userName = [DEFAULTS objectForKey:@"userName"];
-  NSString *password = [DEFAULTS objectForKey:@"userPwd"];
-  NSString *userNickName = [DEFAULTS objectForKey:@"userNickName"];
-  NSString *userPortraitUri = [DEFAULTS objectForKey:@"userPortraitUri"];
+    NSString *token = @"+EEHfvd0lPKDR44J/pb1NJD/wJU8AXxpITfiflBvlQ/BiShap12KV2ctcRhoSWcDhr3M/FWFuNnvUg0gOZn0CtCJ2x2gGLQqjzNfbHM4fXM=";
+    NSString *userId = @"yp__bi__logger";
+    NSString *userName = @"yp__bi__logger";
+    NSString *password = @"yp__bi__logger";
+    NSString *userNickName = @"yp__bi__logger";
+    NSString *userPortraitUri = @"yp__bi__logger";
 
   if (token.length && userId.length && password.length && !debugMode) {
     RCDMainTabBarViewController *mainTabBarVC = [[RCDMainTabBarViewController alloc] init];

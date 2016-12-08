@@ -50,13 +50,13 @@
 - (void)setControllers {
   RCDChatListViewController *chatVC = [[RCDChatListViewController alloc] init];
   
-  RCDContactViewController *contactVC = [[RCDContactViewController alloc] init];
+  //RCDContactViewController *contactVC = [[RCDContactViewController alloc] init];
   
-  RCDSquareTableViewController *discoveryVC = [[RCDSquareTableViewController alloc] init];
+  //RCDSquareTableViewController *discoveryVC = [[RCDSquareTableViewController alloc] init];
    
-  RCDMeTableViewController *meVC = [[RCDMeTableViewController alloc] init];
+  //RCDMeTableViewController *meVC = [[RCDMeTableViewController alloc] init];
   
-  self.viewControllers = @[chatVC, contactVC, discoveryVC, meVC];
+  self.viewControllers = @[chatVC];
 }
 
 -(void)viewWillAppear:(BOOL)animated{
@@ -72,7 +72,7 @@
 -(void)setTabBarItems {
   [self.viewControllers enumerateObjectsUsingBlock:^(__kindof UIViewController * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
     if ([obj isKindOfClass:[RCDChatListViewController class]]) {
-      obj.tabBarItem.title = @"会话";
+      obj.tabBarItem.title = @"通知";
       obj.tabBarItem.image = [[UIImage imageNamed:@"icon_chat"]
                                        imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
       obj.tabBarItem.selectedImage = [[UIImage imageNamed:@"icon_chat_hover"]

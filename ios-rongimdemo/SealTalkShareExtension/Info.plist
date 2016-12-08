@@ -5,11 +5,11 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>chinese</string>
 	<key>CFBundleDisplayName</key>
-	<string>SealTalk</string>
+	<string>报表通知</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
-	<string>cn.rongcloud.im.shareextension</string>
+	<string>com.focross.apps.bi-message.shareextension</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
