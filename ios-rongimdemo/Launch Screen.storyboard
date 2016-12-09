@@ -41,6 +41,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="loading_iOS" width="375" height="667"/>
+        <image name="loading_iOS" width="375" height="1334"/>
     </resources>
 </document>
