@@ -18,7 +18,7 @@
 
 #define ReuseIdentifier @"cellReuseIdentifier"
 
-#define DemoServer @"http://api.sealtalk.im/" //线上正式环境
+#define DemoServer @"https://service.ctrlacv.com/im/" //线上正式环境
 //#define DemoServer @"http://api.hitalk.im/" //测试环境
 
 @implementation RCDShareChatListController

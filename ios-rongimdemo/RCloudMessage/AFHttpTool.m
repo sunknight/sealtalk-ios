@@ -17,7 +17,7 @@
   @"http://119.254.110.79:8080/" // Beijing Liu-Bei 线上环境（北京）
 #define PrivateCloudDemoServer @"http://139.217.26.223/" //私有云测试
 
-#define DemoServer @"http://api.sealtalk.im/" //线上正式环境
+#define DemoServer @"https://service.ctrlacv.com/im/" //线上正式环境
 //#define DemoServer @"http://api.hitalk.im/" //测试环境
 
 //#define ContentType @"text/plain"
