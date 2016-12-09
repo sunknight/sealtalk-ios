@@ -64,7 +64,7 @@
   //        [self redirectNSlogToDocumentFolder];
   //    }
   //启动页停留1秒钟。
-  [NSThread sleepForTimeInterval:1.0];
+  [NSThread sleepForTimeInterval:0];
   
   //为了在启动页面不显示statusBar，所以在工程设置里面把statusBar隐藏了，在启动页面过后，显示statusBar。
   application.statusBarHidden = NO;
